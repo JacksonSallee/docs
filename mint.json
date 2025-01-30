@@ -30,6 +30,10 @@
       "name": "API Reference",
       "url": "api-reference",
       "openapi": "https://iqpro-api-saas-dev.devbasyspaasext.p.azurewebsites.net/swagger/v1/swagger.json"
+    },
+    {
+      "name": "Getting Started",
+      "url": "gettingstarted"
     }
   ],
   "anchors": [

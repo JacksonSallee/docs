@@ -28,8 +28,8 @@
   "tabs": [
     {
       "name": "API Reference",
-      "openapi": "https://iqpro-api-saas-dev.devbasyspaasext.p.azurewebsites.net/swagger/v1/swagger.json",
-      "url": "api-reference"
+      "url": "api-reference",
+      "openapi": "https://iqpro-api-saas-dev.devbasyspaasext.p.azurewebsites.net/swagger/v1/swagger.json"
     }
   ],
   "anchors": [
@@ -76,219 +76,219 @@
       ]
     },
     {
+      "group": "Transaction",
+      "pages": [
+        "api-reference/endpoint/transaction/retrieve-a-transaction",
+        "api-reference/endpoint/transaction/void-a-transaction",
+        "api-reference/endpoint/transaction/create-a-refund",
+        "api-reference/endpoint/transaction/update-the-captured-amount",
+        "api-reference/endpoint/transaction/update-the-original-transaction-amount",
+        "api-reference/endpoint/transaction/email-a-receipt",
+        "api-reference/endpoint/transaction/retrieve-a-transaction-receipt",
+        "api-reference/endpoint/transaction/create-a-transaction",
+        "api-reference/endpoint/transaction/create-a-customer-through-transaction",
+        "api-reference/endpoint/transaction/search-transactions",
+        "api-reference/endpoint/transaction/calculate-transaction-fees",
+        "api-reference/endpoint/transaction/retrieve-webhook-history"
+      ]
+    },
+    {
       "group": "Admin",
       "pages": [
-        "admin\\retrieve-gateway-permissions",
-        "admin\\retrieve-roles",
-        "admin\\retrieve-gateway-roles",
-        "admin\\retrieve-permissions",
-        "admin\\retrieve-units-of-measurement-old"
+        "api-reference/endpoint/admin/retrieve-gateway-permissions",
+        "api-reference/endpoint/admin/retrieve-roles",
+        "api-reference/endpoint/admin/retrieve-gateway-roles",
+        "api-reference/endpoint/admin/retrieve-permissions",
+        "api-reference/endpoint/admin/retrieve-units-of-measurement-old"
       ]
     },
     {
       "group": "AppRegistration",
       "pages": [
-        "appregistration\\retrieve-an-app",
-        "appregistration\\retrieve-apps",
-        "appregistration\\create-a-secret",
-        "appregistration\\delete-a-secret"
+        "api-reference/endpoint/appregistration/retrieve-an-app",
+        "api-reference/endpoint/appregistration/retrieve-apps",
+        "api-reference/endpoint/appregistration/create-a-secret",
+        "api-reference/endpoint/appregistration/delete-a-secret"
       ]
     },
     {
       "group": "Constants",
       "pages": [
-        "constants\\retrieve-units-of-measure",
-        "constants\\retrieve-invoice-statuses",
-        "constants\\retrieve-invoice-types",
-        "constants\\retrieve-metadata-types",
-        "constants\\retrieve-processor-types",
-        "constants\\retrieve-terminal-types",
-        "constants\\retrieve-billing-periods"
+        "api-reference/endpoint/constants/retrieve-units-of-measure",
+        "api-reference/endpoint/constants/retrieve-invoice-statuses",
+        "api-reference/endpoint/constants/retrieve-invoice-types",
+        "api-reference/endpoint/constants/retrieve-metadata-types",
+        "api-reference/endpoint/constants/retrieve-processor-types",
+        "api-reference/endpoint/constants/retrieve-terminal-types",
+        "api-reference/endpoint/constants/retrieve-billing-periods"
       ]
     },
     {
       "group": "Customer",
       "pages": [
-        "customer\\retrieve-a-customer",
-        "customer\\update-a-customer",
-        "customer\\delete-a-customer",
-        "customer\\create-a-customer",
-        "customer\\create-a-customer-address",
-        "customer\\delete-a-customer-address",
-        "customer\\update-a-customer-address",
-        "customer\\search-for-customers",
-        "customer\\create-a-customer-payment-method",
-        "customer\\delete-a-customer-payment-method",
-        "customer\\update-a-customer-payment-method",
-        "customer\\create-a-customer-payable-token"
+        "api-reference/endpoint/customer/retrieve-a-customer",
+        "api-reference/endpoint/customer/update-a-customer",
+        "api-reference/endpoint/customer/delete-a-customer",
+        "api-reference/endpoint/customer/create-a-customer",
+        "api-reference/endpoint/customer/create-a-customer-address",
+        "api-reference/endpoint/customer/delete-a-customer-address",
+        "api-reference/endpoint/customer/update-a-customer-address",
+        "api-reference/endpoint/customer/search-for-customers",
+        "api-reference/endpoint/customer/create-a-customer-payment-method",
+        "api-reference/endpoint/customer/delete-a-customer-payment-method",
+        "api-reference/endpoint/customer/update-a-customer-payment-method",
+        "api-reference/endpoint/customer/create-a-customer-payable-token"
       ]
     },
     {
       "group": "CustomField",
       "pages": [
-        "customfield\\retrieve-categories",
-        "customfield\\create-a-category",
-        "customfield\\update-all-categories",
-        "customfield\\update-a-custom-field",
-        "customfield\\create-custom-fields",
-        "customfield\\retrieve-a-category",
-        "customfield\\delete-a-category",
-        "customfield\\create-custom-field-options",
-        "customfield\\delete-a-custom-field",
-        "customfield\\delete-custom-field-options"
+        "api-reference/endpoint/customfield/retrieve-categories",
+        "api-reference/endpoint/customfield/create-a-category",
+        "api-reference/endpoint/customfield/update-all-categories",
+        "api-reference/endpoint/customfield/update-a-custom-field",
+        "api-reference/endpoint/customfield/create-custom-fields",
+        "api-reference/endpoint/customfield/retrieve-a-category",
+        "api-reference/endpoint/customfield/delete-a-category",
+        "api-reference/endpoint/customfield/create-custom-field-options",
+        "api-reference/endpoint/customfield/delete-a-custom-field",
+        "api-reference/endpoint/customfield/delete-custom-field-options"
       ]
     },
     {
       "group": "Gateway",
       "pages": [
-        "gateway\\retrieve-all-gateways",
-        "gateway\\search-for-gateways",
-        "gateway\\retrieve-a-gateway",
-        "gateway\\update-a-gateway",
-        "gateway\\create-a-gateway",
-        "gateway\\create-a-gateway-address",
-        "gateway\\retrieve-gateway-configuration",
-        "gateway\\update-gateway-configuration",
-        "gateway\\enabledisable-a-gateway",
-        "gateway\\create-a-gateway-token"
+        "api-reference/endpoint/gateway/retrieve-all-gateways",
+        "api-reference/endpoint/gateway/search-for-gateways",
+        "api-reference/endpoint/gateway/retrieve-a-gateway",
+        "api-reference/endpoint/gateway/update-a-gateway",
+        "api-reference/endpoint/gateway/create-a-gateway",
+        "api-reference/endpoint/gateway/create-a-gateway-address",
+        "api-reference/endpoint/gateway/retrieve-gateway-configuration",
+        "api-reference/endpoint/gateway/update-gateway-configuration",
+        "api-reference/endpoint/gateway/enabledisable-a-gateway",
+        "api-reference/endpoint/gateway/create-a-gateway-token"
       ]
     },
     {
       "group": "GatewayUser",
       "pages": [
-        "gatewayuser\\retrieve-all-gateway-users",
-        "gatewayuser\\create-a-gateway-user",
-        "gatewayuser\\retrieve-a-gateway-user",
-        "gatewayuser\\update-a-gateway-user",
-        "gatewayuser\\delete-a-gateway-user"
+        "api-reference/endpoint/gatewayuser/retrieve-all-gateway-users",
+        "api-reference/endpoint/gatewayuser/create-a-gateway-user",
+        "api-reference/endpoint/gatewayuser/retrieve-a-gateway-user",
+        "api-reference/endpoint/gatewayuser/update-a-gateway-user",
+        "api-reference/endpoint/gatewayuser/delete-a-gateway-user"
       ]
     },
     {
       "group": "Invoice",
       "pages": [
-        "invoice\\create-an-invoice",
-        "invoice\\update-invoices",
-        "invoice\\retrieve-an-invoice",
-        "invoice\\delete-an-invoice",
-        "invoice\\create-invoice-fees",
-        "invoice\\retrieve-pdf-of-an-invoice",
-        "invoice\\search-for-invoices",
-        "invoice\\email-an-invoice"
+        "api-reference/endpoint/invoice/create-an-invoice",
+        "api-reference/endpoint/invoice/update-invoices",
+        "api-reference/endpoint/invoice/retrieve-an-invoice",
+        "api-reference/endpoint/invoice/delete-an-invoice",
+        "api-reference/endpoint/invoice/create-invoice-fees",
+        "api-reference/endpoint/invoice/retrieve-pdf-of-an-invoice",
+        "api-reference/endpoint/invoice/search-for-invoices",
+        "api-reference/endpoint/invoice/email-an-invoice"
       ]
     },
     {
       "group": "Notification",
       "pages": [
-        "notification\\retrieve-notification-options",
-        "notification\\retrieve-notification-types",
-        "notification\\retrieve-notifications",
-        "notification\\create-a-notification",
-        "notification\\delete-a-notification",
-        "notification\\create-notification-contacts",
-        "notification\\delete-a-notification-contact"
+        "api-reference/endpoint/notification/retrieve-notification-options",
+        "api-reference/endpoint/notification/retrieve-notification-types",
+        "api-reference/endpoint/notification/retrieve-notifications",
+        "api-reference/endpoint/notification/create-a-notification",
+        "api-reference/endpoint/notification/delete-a-notification",
+        "api-reference/endpoint/notification/create-notification-contacts",
+        "api-reference/endpoint/notification/delete-a-notification-contact"
       ]
     },
     {
       "group": "Processor",
       "pages": [
-        "processor\\retrieve-all-processors",
-        "processor\\create-a-processor",
-        "processor\\retrieve-a-processor",
-        "processor\\update-a-processor",
-        "processor\\delete-a-processor",
-        "processor\\retrieve-all-processor-types"
+        "api-reference/endpoint/processor/retrieve-all-processors",
+        "api-reference/endpoint/processor/create-a-processor",
+        "api-reference/endpoint/processor/retrieve-a-processor",
+        "api-reference/endpoint/processor/update-a-processor",
+        "api-reference/endpoint/processor/delete-a-processor",
+        "api-reference/endpoint/processor/retrieve-all-processor-types"
       ]
     },
     {
       "group": "Product",
       "pages": [
-        "product\\create-a-product-listing",
-        "product\\update-a-product-listing",
-        "product\\retrieve-a-product-listing",
-        "product\\delete-a-product-listing",
-        "product\\search-product-listings"
+        "api-reference/endpoint/product/create-a-product-listing",
+        "api-reference/endpoint/product/update-a-product-listing",
+        "api-reference/endpoint/product/retrieve-a-product-listing",
+        "api-reference/endpoint/product/delete-a-product-listing",
+        "api-reference/endpoint/product/search-product-listings"
       ]
     },
     {
       "group": "Settlement",
       "pages": [
-        "settlement\\search-settlements",
-        "settlement\\search-settlements-csv"
+        "api-reference/endpoint/settlement/search-settlements",
+        "api-reference/endpoint/settlement/search-settlements-csv"
       ]
     },
     {
       "group": "Subscription",
       "pages": [
-        "subscription\\retrieve-a-subscription",
-        "subscription\\update-a-subscription",
-        "subscription\\delete-a-subscription",
-        "subscription\\search-for-subscriptions",
-        "subscription\\create-a-subscription",
-        "subscription\\cancel-a-subscription",
-        "subscription\\pause-a-subscription",
-        "subscription\\resume-a-subscription"
+        "api-reference/endpoint/subscription/retrieve-a-subscription",
+        "api-reference/endpoint/subscription/update-a-subscription",
+        "api-reference/endpoint/subscription/delete-a-subscription",
+        "api-reference/endpoint/subscription/search-for-subscriptions",
+        "api-reference/endpoint/subscription/create-a-subscription",
+        "api-reference/endpoint/subscription/cancel-a-subscription",
+        "api-reference/endpoint/subscription/pause-a-subscription",
+        "api-reference/endpoint/subscription/resume-a-subscription"
       ]
     },
     {
       "group": "Terminal",
       "pages": [
-        "terminal\\retrieve-all-physical-terminals",
-        "terminal\\send-transaction-command-to-corresponding-physical-terminal"
+        "api-reference/endpoint/terminal/retrieve-all-physical-terminals",
+        "api-reference/endpoint/terminal/send-transaction-command-to-corresponding-physical-terminal"
       ]
     },
     {
       "group": "TerminalType",
       "pages": [
-        "terminaltype\\retrieve-all-physical-terminal-specs"
+        "api-reference/endpoint/terminaltype/retrieve-all-physical-terminal-specs"
       ]
     },
     {
       "group": "Tokenization",
       "pages": [
-        "tokenization\\retrieve-tokenizer-configuration"
-      ]
-    },
-    {
-      "group": "Transaction",
-      "pages": [
-        "transaction\\retrieve-a-transaction",
-        "transaction\\void-a-transaction",
-        "transaction\\create-a-refund",
-        "transaction\\update-the-captured-amount",
-        "transaction\\update-the-original-transaction-amount",
-        "transaction\\email-a-receipt",
-        "transaction\\retrieve-a-transaction-receipt",
-        "transaction\\create-a-transaction",
-        "transaction\\create-a-customer-through-transaction",
-        "transaction\\search-transactions",
-        "transaction\\calculate-transaction-fees",
-        "transaction\\retrieve-webhook-history"
+        "api-reference/endpoint/tokenization/retrieve-tokenizer-configuration"
       ]
     },
     {
       "group": "User",
       "pages": [
-        "user\\create-a-user",
-        "user\\search-users",
-        "user\\update-a-user",
-        "user\\delete-a-user",
-        "user\\accept-tos",
-        "user\\email-a-user-invite",
-        "user\\retrieve-sign-in-attempts",
-        "user\\delete-the-mfa-sign-in-method"
+        "api-reference/endpoint/user/create-a-user",
+        "api-reference/endpoint/user/search-users",
+        "api-reference/endpoint/user/update-a-user",
+        "api-reference/endpoint/user/delete-a-user",
+        "api-reference/endpoint/user/accept-tos",
+        "api-reference/endpoint/user/email-a-user-invite",
+        "api-reference/endpoint/user/retrieve-sign-in-attempts",
+        "api-reference/endpoint/user/delete-the-mfa-sign-in-method"
       ]
     },
     {
       "group": "Z - Open",
       "pages": [
-        "z--open\\get-endpoint",
-        "z--open\\put-endpoint",
-        "z--open\\post-endpoint",
-        "z--open\\delete-endpoint",
-        "z--open\\options-endpoint",
-        "z--open\\head-endpoint",
-        "z--open\\patch-endpoint",
-        "z--open\\trace-endpoint"
+        "api-reference/endpoint/z--open/get-endpoint",
+        "api-reference/endpoint/z--open/put-endpoint",
+        "api-reference/endpoint/z--open/post-endpoint",
+        "api-reference/endpoint/z--open/delete-endpoint",
+        "api-reference/endpoint/z--open/options-endpoint",
+        "api-reference/endpoint/z--open/head-endpoint",
+        "api-reference/endpoint/z--open/patch-endpoint",
+        "api-reference/endpoint/z--open/trace-endpoint"
       ]
     }
   ],

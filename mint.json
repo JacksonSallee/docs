@@ -28,6 +28,7 @@
   "tabs": [
     {
       "name": "API Reference",
+      "openapi": "https://iqpro-api-saas-dev.devbasyspaasext.p.azurewebsites.net/swagger/v1/swagger.json",
       "url": "api-reference"
     }
   ],
@@ -75,11 +76,219 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Admin",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "admin\\retrieve-gateway-permissions",
+        "admin\\retrieve-roles",
+        "admin\\retrieve-gateway-roles",
+        "admin\\retrieve-permissions",
+        "admin\\retrieve-units-of-measurement-old"
+      ]
+    },
+    {
+      "group": "AppRegistration",
+      "pages": [
+        "appregistration\\retrieve-an-app",
+        "appregistration\\retrieve-apps",
+        "appregistration\\create-a-secret",
+        "appregistration\\delete-a-secret"
+      ]
+    },
+    {
+      "group": "Constants",
+      "pages": [
+        "constants\\retrieve-units-of-measure",
+        "constants\\retrieve-invoice-statuses",
+        "constants\\retrieve-invoice-types",
+        "constants\\retrieve-metadata-types",
+        "constants\\retrieve-processor-types",
+        "constants\\retrieve-terminal-types",
+        "constants\\retrieve-billing-periods"
+      ]
+    },
+    {
+      "group": "Customer",
+      "pages": [
+        "customer\\retrieve-a-customer",
+        "customer\\update-a-customer",
+        "customer\\delete-a-customer",
+        "customer\\create-a-customer",
+        "customer\\create-a-customer-address",
+        "customer\\delete-a-customer-address",
+        "customer\\update-a-customer-address",
+        "customer\\search-for-customers",
+        "customer\\create-a-customer-payment-method",
+        "customer\\delete-a-customer-payment-method",
+        "customer\\update-a-customer-payment-method",
+        "customer\\create-a-customer-payable-token"
+      ]
+    },
+    {
+      "group": "CustomField",
+      "pages": [
+        "customfield\\retrieve-categories",
+        "customfield\\create-a-category",
+        "customfield\\update-all-categories",
+        "customfield\\update-a-custom-field",
+        "customfield\\create-custom-fields",
+        "customfield\\retrieve-a-category",
+        "customfield\\delete-a-category",
+        "customfield\\create-custom-field-options",
+        "customfield\\delete-a-custom-field",
+        "customfield\\delete-custom-field-options"
+      ]
+    },
+    {
+      "group": "Gateway",
+      "pages": [
+        "gateway\\retrieve-all-gateways",
+        "gateway\\search-for-gateways",
+        "gateway\\retrieve-a-gateway",
+        "gateway\\update-a-gateway",
+        "gateway\\create-a-gateway",
+        "gateway\\create-a-gateway-address",
+        "gateway\\retrieve-gateway-configuration",
+        "gateway\\update-gateway-configuration",
+        "gateway\\enabledisable-a-gateway",
+        "gateway\\create-a-gateway-token"
+      ]
+    },
+    {
+      "group": "GatewayUser",
+      "pages": [
+        "gatewayuser\\retrieve-all-gateway-users",
+        "gatewayuser\\create-a-gateway-user",
+        "gatewayuser\\retrieve-a-gateway-user",
+        "gatewayuser\\update-a-gateway-user",
+        "gatewayuser\\delete-a-gateway-user"
+      ]
+    },
+    {
+      "group": "Invoice",
+      "pages": [
+        "invoice\\create-an-invoice",
+        "invoice\\update-invoices",
+        "invoice\\retrieve-an-invoice",
+        "invoice\\delete-an-invoice",
+        "invoice\\create-invoice-fees",
+        "invoice\\retrieve-pdf-of-an-invoice",
+        "invoice\\search-for-invoices",
+        "invoice\\email-an-invoice"
+      ]
+    },
+    {
+      "group": "Notification",
+      "pages": [
+        "notification\\retrieve-notification-options",
+        "notification\\retrieve-notification-types",
+        "notification\\retrieve-notifications",
+        "notification\\create-a-notification",
+        "notification\\delete-a-notification",
+        "notification\\create-notification-contacts",
+        "notification\\delete-a-notification-contact"
+      ]
+    },
+    {
+      "group": "Processor",
+      "pages": [
+        "processor\\retrieve-all-processors",
+        "processor\\create-a-processor",
+        "processor\\retrieve-a-processor",
+        "processor\\update-a-processor",
+        "processor\\delete-a-processor",
+        "processor\\retrieve-all-processor-types"
+      ]
+    },
+    {
+      "group": "Product",
+      "pages": [
+        "product\\create-a-product-listing",
+        "product\\update-a-product-listing",
+        "product\\retrieve-a-product-listing",
+        "product\\delete-a-product-listing",
+        "product\\search-product-listings"
+      ]
+    },
+    {
+      "group": "Settlement",
+      "pages": [
+        "settlement\\search-settlements",
+        "settlement\\search-settlements-csv"
+      ]
+    },
+    {
+      "group": "Subscription",
+      "pages": [
+        "subscription\\retrieve-a-subscription",
+        "subscription\\update-a-subscription",
+        "subscription\\delete-a-subscription",
+        "subscription\\search-for-subscriptions",
+        "subscription\\create-a-subscription",
+        "subscription\\cancel-a-subscription",
+        "subscription\\pause-a-subscription",
+        "subscription\\resume-a-subscription"
+      ]
+    },
+    {
+      "group": "Terminal",
+      "pages": [
+        "terminal\\retrieve-all-physical-terminals",
+        "terminal\\send-transaction-command-to-corresponding-physical-terminal"
+      ]
+    },
+    {
+      "group": "TerminalType",
+      "pages": [
+        "terminaltype\\retrieve-all-physical-terminal-specs"
+      ]
+    },
+    {
+      "group": "Tokenization",
+      "pages": [
+        "tokenization\\retrieve-tokenizer-configuration"
+      ]
+    },
+    {
+      "group": "Transaction",
+      "pages": [
+        "transaction\\retrieve-a-transaction",
+        "transaction\\void-a-transaction",
+        "transaction\\create-a-refund",
+        "transaction\\update-the-captured-amount",
+        "transaction\\update-the-original-transaction-amount",
+        "transaction\\email-a-receipt",
+        "transaction\\retrieve-a-transaction-receipt",
+        "transaction\\create-a-transaction",
+        "transaction\\create-a-customer-through-transaction",
+        "transaction\\search-transactions",
+        "transaction\\calculate-transaction-fees",
+        "transaction\\retrieve-webhook-history"
+      ]
+    },
+    {
+      "group": "User",
+      "pages": [
+        "user\\create-a-user",
+        "user\\search-users",
+        "user\\update-a-user",
+        "user\\delete-a-user",
+        "user\\accept-tos",
+        "user\\email-a-user-invite",
+        "user\\retrieve-sign-in-attempts",
+        "user\\delete-the-mfa-sign-in-method"
+      ]
+    },
+    {
+      "group": "Z - Open",
+      "pages": [
+        "z--open\\get-endpoint",
+        "z--open\\put-endpoint",
+        "z--open\\post-endpoint",
+        "z--open\\delete-endpoint",
+        "z--open\\options-endpoint",
+        "z--open\\head-endpoint",
+        "z--open\\patch-endpoint",
+        "z--open\\trace-endpoint"
       ]
     }
   ],

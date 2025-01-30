@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Developer Documentation",
   "logo": {
-    "dark": "/logo/iQPro+_DM_RGB_Primary_White.svg",
-    "light": "/logo/iQPro+_Primary_FullColor_RGB.svg"
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {

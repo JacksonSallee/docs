@@ -96,6 +96,27 @@ Create an application name and assign it a role. An application must be assigned
 </Step>
 <Step title="Make your first call to a Basys API">
 Congratulations! You are almost there. Now that you have your access token you can hit Basys APIs! You can do this one of two ways. Use our API Explorer; select the API you want to access from the list, click the "Try It >" button, input your access token as the authorization header, and click "Send" and you interact with our API from within the docs. Or use the following Base URL within the API collection that was provided during the onboarding process.
+
+```markup Base URL (Production)
+https://api.basyspro.com/iqsaas/v1/api
+```
+
+## Headers
+The following headers should be included with your requests:
+### Authorization
+Calls to the API must include an Authorization header with the request. Specify the following authorization header:
+
+```Bash Authorization Header
+Authorization: Bearer { JWTToken }
+```
+### Content-Type
+`Content-Type` should typically be set to application/json, unless you need to send your request body in a different format. All API responses will be in JSON format.
 </Step>
 </Steps>
+
+## Deleting Application and Secrets
+Applications can be deleted from the Application list view by clicking the "Delete Application" button. Deleting an application will delete all of the secrets that have been configured for the corresponding application
+
+Secrets can deleted from the Details View by clicking the X under the actions column.
+<Warning>Deleting applications and secrets will break any existing integrations leveraging them.</Warning>
 

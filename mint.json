@@ -27,13 +27,17 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference",
-      "openapi": "https://iqpro-api-saas-dev.devbasyspaasext.p.azurewebsites.net/swagger/v1/swagger.json"
+      "name": "Home",
+      "url": "/"
     },
     {
       "name": "Getting Started",
       "url": "getting-started"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference",
+      "openapi": "https://iqpro-api-saas-dev.devbasyspaasext.p.azurewebsites.net/swagger/v1/swagger.json"
     }
   ],
   "anchors": [
@@ -55,11 +59,9 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Welcome!",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
@@ -71,6 +73,12 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "Get Started",
+      "pages": [
+        "getting-started/gettingstarted"
       ]
     },
     {

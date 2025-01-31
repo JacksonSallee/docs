@@ -15,6 +15,14 @@
       "to": "#66CCFF"
     }
   },
+  "font": {
+  "headings": {
+    "family": "Plus Jakarta Sans"
+  },
+  "body": {
+    "family": "Plus Jakarta Sans"
+  }
+},
   "topbarLinks": [
     {
       "name": "Support",
@@ -25,11 +33,18 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
+  "primaryTab": {
+    "name": "Home"
+  },
+  "api": {
+    "baseUrl": "https://sandbox.api.basyspro.com/iqsaas/v1",
+    "auth": {
+      "method": "bearer",
+      "name": "JWT Token",
+      "inputPrefix": "Bearer "
+    }
+  },
   "tabs": [
-    {
-      "name": "Home",
-      "url": "/"
-    },
     {
       "name": "Getting Started",
       "url": "getting-started"

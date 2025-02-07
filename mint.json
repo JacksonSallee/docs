@@ -50,6 +50,10 @@
       "url": "getting-started"
     },
     {
+      "name": "Tokenizer",
+      "url": "tokenizer"
+    },
+    {
       "name": "API Reference",
       "url": "api-reference",
       "openapi": "https://iqpro-api-saas-dev.devbasyspaasext.p.azurewebsites.net/swagger/v1/swagger.json"
@@ -94,6 +98,12 @@
       "group": "Get Started",
       "pages": [
         "getting-started/gettingstarted"
+      ]
+    },
+    {
+      "group": "Tokenizer",
+      "pages": [
+        "tokenizer/tokenizer"
       ]
     },
     {

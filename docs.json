@@ -57,8 +57,7 @@
       {
         "tab": "API Reference",
         "openapi": {
-          "source": "https://iqpro-api-saas-dev.devbasyspaasext.p.azurewebsites.net/swagger/v1/swagger.json",
-          "directory": "api-reference"
+          "source": "https://iqpro-api-saas-dev.devbasyspaasext.p.azurewebsites.net/swagger/v1/swagger.json"
         },
         "groups": [
           {
